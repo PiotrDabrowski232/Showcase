@@ -3,7 +3,7 @@
         <h3>MY NAME IS</h3>
         <h1> Piotr Dąbrowski</h1>
         <p>and I'm a fourth-semester student at the Białystok University of Technology. By doing duties involves with my University, I can easily develop my technical and soft skills.</p>
-        <p>In my free time, I try to gain knowledge about IT things, by achieving extra certificates which confirm my knowledge about particular issue and doing practice projects.</p>
+        <p>In my free time, I try to gain knowledge about IT stuff, by achieving extra certificates which confirm my knowledge about a particular issue and doing practice projects.</p>
     </div>
 </template>
   
@@ -15,8 +15,6 @@ export default {
         return {
         };
     },
-    methods: {
-    },
 };
 </script>
   
@@ -25,35 +23,38 @@ export default {
    .aboutMe{
     text-align: center;
     color: wheat;
+    font-family: 'Raleway', sans-serif;
    }
    
    .aboutMe h3{
+    opacity: 0.4;
     margin: 0;
     padding: 0;
     padding-top: 20vh;
-    font-size: 25px;
-    font-weight: 300;
+    font-size: 20px;
+    font-weight: 100;
    }
 
    .aboutMe h1{
+    opacity: 0.8;
+    color: white;
     margin: 0;
-    font-size: 70px;
+    font-size: 65px;
     padding-top: 45px;
     letter-spacing: 5px;
-    font-weight: 700;
-    margin-bottom: 7vh;
+    margin-bottom: 8vh;
    }
 
    .aboutMe p{
-    color: white;
+    color: rgb(255, 255, 255);
     letter-spacing: 1px;
-    font-size: 30px;
-    box-sizing: 20px;
-    width: 65vw;
-    text-align: center;
+    font-size: 25px;
+    width: 50vw;
+    text-align: justify;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 6vh;
+    margin-bottom: 1.5vh;
+    font-weight: 100;
    }
    
 

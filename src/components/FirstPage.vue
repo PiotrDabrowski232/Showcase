@@ -6,16 +6,19 @@
 
       <div class="navigation">
         <BarBase style="background-color: darkcyan; color: white;" v-model:visible="visible" position="right">
-            <h4 style="top: 1rem; padding-left: 2rem; position: absolute;">Menu</h4><br>
-            <a style="color: white; text-decoration: none; text-align: center; font-size: 1.5rem; letter-spacing: 2px; padding-left: 2rem;" href="#Home" @click="visible = !visible" >Home</a><br><br>
-            <a style="color: white; text-decoration: none; text-align: center; font-size: 1.5rem; letter-spacing: 2px; padding-left: 2rem;" href="#aboutMe" @click="visible = !visible">About Me</a>
+            <h4 style="top: 1.25rem; padding-left: 1rem; position: absolute; font-size: 25px; margin: 0; letter-spacing: 2px;">Menu</h4>
+            <div class="sidebar">
+                <a href="#Home" @click="visible = !visible" >Home</a>
+                <a href="#aboutMe" @click="visible = !visible">About Me</a>
+                <a href="#ContactMe" @click="visible = !visible">Contact</a>
+            </div>
         </BarBase>
         <ButtonBase style="background-color: #c82128; color: black;" icon="pi pi-bars" @click="visible = !visible" />
       </div>
 
         <div class="reflinks">
-            <a href="https://www.linkedin.com/in/piotrekdabrowski" target="_blank" ><i class="pi pi-linkedin"></i></a>
-            <a href=" https://github.com/PiotrDabrowski232" target="_blank" ><i class="pi pi-github"></i></a>
+            <a href="https://www.linkedin.com/in/piotrekdabrowski" target="_blank" ><i style="color: aliceblue;" class="pi pi-linkedin"></i></a>
+            <a href="https://github.com/PiotrDabrowski232?tab=repositories" target="_blank" ><i style="color: aliceblue;" class="pi pi-github"></i></a>
         </div>
 
         <div class="welcomeMessage">
@@ -44,6 +47,22 @@ export default {
   
 
   <style>
+
+  .sidebar{
+    margin-top:10vh;
+  }
+
+  .sidebar a{
+        color: white;
+        text-decoration: none;
+        text-align: left; 
+        font-size: 1.5rem;
+        letter-spacing: 2px;
+        padding-left: 2rem;
+        margin-top: 4vh;
+        display: block;
+  }
+
     .return-to-home{
         position: fixed;
         top: 90vh;
@@ -81,6 +100,7 @@ export default {
         padding-left: 5vw;
         display: block;
     }
+
     .welcomeMessage{
         color: white;
         position: absolute;
@@ -92,8 +112,10 @@ export default {
         letter-spacing: 3.2px;
         font-family: 'Chivo Mono', monospace;
         font-family: 'Sono', sans-serif;
-        color: lightgrey;
+        color: white;
+        opacity: 0.65;
     }
+    
     .welcomeMessage p{
         letter-spacing: 3.2px;
         font-family: 'Noto Serif', serif;
@@ -102,5 +124,7 @@ export default {
         padding-left: 3.2vw;
         padding-top: 1.2vh;
     }
+
+
   </style>
   

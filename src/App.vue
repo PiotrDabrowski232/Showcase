@@ -1,19 +1,21 @@
 <template>
   <navbar class="all" id="Home"/>
   <secondPage class="all1" id="aboutMe"/>
+  <contactCv/>
+  
 </template>
 
 <script>
 import navbar from "./components/FirstPage.vue"
 import secondPage from "./components/SecondPage.vue"
-
+import contactCv from "./components/ContactCv.vue"
 export default{
   name:"App",
   components:{
     navbar,
-    secondPage
+    secondPage,
+    contactCv
   },
-  
 }
 
 
