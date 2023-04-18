@@ -23,6 +23,7 @@ export default{
 
 <style>
   html, body{
+    font-family: 'Raleway', sans-serif;
     margin: 0px;
     padding: 0px;
     height: 100%;
@@ -39,7 +40,7 @@ export default{
     scroll-snap-align: center;
   }
   .all1{
-    background-color: #00181a;
+    background-color: #036871;
     background-size: 100% 100%;
     width: auto;
     height: 100vh;

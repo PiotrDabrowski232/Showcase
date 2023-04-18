@@ -71,6 +71,7 @@ export default {
         margin: 0px;
     }
 
+
     h3{
         margin:0px;
         color: white;
@@ -104,25 +105,24 @@ export default {
     .welcomeMessage{
         color: white;
         position: absolute;
-        top: 30vh;
-        left: 13vw;
+        margin-top: 11vh;
+        margin-left: 43vh;
+        margin-right: 25vh;
     }
 
     .welcomeMessage h4{
         letter-spacing: 3.2px;
-        font-family: 'Chivo Mono', monospace;
-        font-family: 'Sono', sans-serif;
         color: white;
         opacity: 0.65;
     }
     
     .welcomeMessage p{
         letter-spacing: 3.2px;
-        font-family: 'Noto Serif', serif;
-        color: burlywood;
+        color: white;
         font-size: 45px;
-        padding-left: 3.2vw;
         padding-top: 1.2vh;
+        font-weight: 500;
+        text-align: justify;
     }
 
 
