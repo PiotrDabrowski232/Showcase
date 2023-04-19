@@ -35,7 +35,6 @@
 
 
 <script>
-
 export default {
     data() {
         return {
@@ -44,7 +43,7 @@ export default {
     }
 };
 </script>
-  
+
 
   <style>
 
@@ -62,15 +61,9 @@ export default {
         margin-top: 4vh;
         display: block;
   }
-
-    .return-to-home{
-        position: fixed;
-        top: 90vh;
-        right: 8vh;
-        padding: 0px;
-        margin: 0px;
-    }
-
+  .sidebar a:hover{
+    transition: opacity 0.5;
+  }
 
     h3{
         margin:0px;

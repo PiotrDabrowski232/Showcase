@@ -16,6 +16,7 @@
 color: white;
 padding-top: 10vh;
 font-size: 1.25rem;
+width: 100%;
 }
 a{
   text-decoration: none;

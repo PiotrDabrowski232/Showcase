@@ -1,20 +1,23 @@
 <template>
-    <div class="main"  id="ContactMe">
-        <nav>
-            <router-link @click="isActiveCv= true; isActiveContact= false" v-bind:class="isActiveCv && 'active'" style=" text-decoration: none; position: relative;"  class="links" to="/"  exact-path>Contact</router-link>
-            <router-link @click="isActiveCv= false; isActiveContact= true" v-bind:class="isActiveContact && 'active'" style=" text-decoration: none; position: relative;" class="links" to="/Cv">Curriculum Vitae</router-link>
-        </nav>  
-        <router-view v-slot="{Component}">
-            <transition name="slide-fade" mode="out-in">
-                <Component :is="Component"/>
-            </transition>
-        </router-view>
-    </div>
+        <div class="main"  id="ContactMe">
+            
+                <nav>
+                    <router-link @click="isActiveCv= true; isActiveContact= false" v-bind:class="isActiveCv && 'active'" style=" text-decoration: none; position: relative;"  class="links" to="/"  exact-path>Contact</router-link>
+                    <router-link @click="isActiveCv= false; isActiveContact= true" v-bind:class="isActiveContact && 'active'" style=" text-decoration: none; position: relative;" class="links" to="/Cv">Curriculum Vitae</router-link>
+                </nav>  
 
-    <div class="footer">
-        <p>© Copyright Piotr Dąbrowski 2023</p>
-    </div>
-    
+                <div class="rout-content">
+                    <router-view v-slot="{Component}">
+                        <transition name="slide-fade" mode='out-in'>
+                            <Component :is="Component"/>
+                        </transition>
+                    </router-view>
+                </div>
+
+                <div class="footer">
+                    <p>© Copyright Piotr Dąbrowski 2023</p>
+                </div>
+        </div>
 </template>
  
 <script>
@@ -33,7 +36,7 @@ export default{
 
 <style>
     .main{
-        height: 95vh;
+        height: 100vh;
         width: auto;
         background-color: #040c0d;
         text-align: center;
@@ -42,15 +45,21 @@ export default{
         height: 5vh;
         width: auto;
         background-color: black;
+        margin-top: 32vh;
     }
     .footer p{
+        padding: 0;
+        height: auto;
         color: white;
         text-align: center;
-        margin: 0%;
-        padding-top: 1.5vh;
+        margin: 0;
+        padding-top: 0.8rem;
     }
 
-
+        .rout-content{
+            height: 43vh;
+            width: 100%;
+        }
 
         .links{
         font-size: 1.56rem;
@@ -93,7 +102,7 @@ export default{
    }
    
     .slide-fade-enter-active {
-    transition: all 0.3s ease-out;
+    transition: all 0.3s ease-in-out;
     }
 
     .slide-fade-leave-active {
@@ -102,7 +111,7 @@ export default{
 
     .slide-fade-enter-from,
     .slide-fade-leave-to {
-    transform: translateX(1.25rem);
+    transform: translateY(1rem);
     opacity: 0;
     }
 

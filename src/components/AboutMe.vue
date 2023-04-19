@@ -3,20 +3,9 @@
         <h3>MY NAME IS</h3>
         <h1> Piotr Dąbrowski</h1>
         <p>and I'm a fourth-semester student at the Białystok University of Technology. By doing duties involves with my University, I can easily develop my technical and soft skills.</p>
-        <p>In my free time, I try to gain knowledge about IT stuff, by achieving extra certificates which confirm my knowledge about a particular issue and doing practice projects.</p>
+        <p>In my free time, I try to gain knowledge about IT stuff, by achieving extra certificates, which confirm my understanding of the particular issue, and doing practice projects.</p>
     </div>
 </template>
-  
-
-
-<script>
-export default {
-    data() {
-        return {
-        };
-    },
-};
-</script>
   
 
   <style>

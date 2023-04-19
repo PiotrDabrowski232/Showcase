@@ -1,19 +1,19 @@
 <template>
-  <navbar class="all" id="Home"/>
-  <secondPage class="all1" id="aboutMe"/>
-  <contactCv/>
+  <HomePage id="Home"/>
+  <AboutMe  id="aboutMe"/>
+  <contactCv id="ContactMe"/>
   
 </template>
 
 <script>
-import navbar from "./components/FirstPage.vue"
-import secondPage from "./components/SecondPage.vue"
+import HomePage from "./components/HomePage.vue"
+import AboutMe from "./components/AboutMe.vue"
 import contactCv from "./components/ContactCv.vue"
 export default{
   name:"App",
   components:{
-    navbar,
-    secondPage,
+    HomePage,
+    AboutMe,
     contactCv
   },
 }
@@ -30,7 +30,7 @@ export default{
     overflow:hidden;
   }
   
-  .all{
+  #Home{
     background: url("./assets/background.jpg") no-repeat;
     background-size: 100% 100%;
     width: auto;
@@ -39,7 +39,7 @@ export default{
     padding: 0px;
     scroll-snap-align: center;
   }
-  .all1{
+  #aboutMe{
     background-color: #036871;
     background-size: 100% 100%;
     width: auto;
@@ -54,5 +54,9 @@ export default{
     height: 100%;
     overflow-y: scroll;
     scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+  }
+  #ContactMe{
+    scroll-snap-align:center;
   }
 </style>
