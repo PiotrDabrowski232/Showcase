@@ -20,11 +20,10 @@ export default {
 <style>
 .Cv{
 padding-top: 10vh;
-font-size: 20px;
 color: white;
 }
 .Cv p{
-  font-size: 23px;
+  font-size:1.44rem;
 }
 
 .slide-fade-enter-active {
@@ -37,7 +36,7 @@ color: white;
 
 .slide-fade-enter-from,
 .slide-fade-leave-to {
-  transform: translateX(20px);
+  transform: translateX(1.25rem);
   opacity: 0;
 }
 </style>

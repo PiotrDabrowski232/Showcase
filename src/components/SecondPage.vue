@@ -31,7 +31,7 @@ export default {
     margin: 0;
     padding: 0;
     padding-top: 20vh;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 100;
    }
 
@@ -39,22 +39,23 @@ export default {
     opacity: 0.8;
     color: white;
     margin: 0;
-    font-size: 65px;
-    padding-top: 45px;
-    letter-spacing: 5px;
+    font-size: 4.1rem;
+    padding-top: 2.8rem;
+    letter-spacing: 0.3rem;
     margin-bottom: 8vh;
    }
 
    .aboutMe p{
     color: rgb(255, 255, 255);
     letter-spacing: 1px;
-    font-size: 25px;
+    font-size: 1.6rem;
     width: 50vw;
     text-align: justify;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1.5vh;
     font-weight: 100;
+    min-width: 50vw;
    }
    
 

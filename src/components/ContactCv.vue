@@ -52,10 +52,10 @@ export default{
 
 
         .links{
-        font-size: 25px;
+        font-size: 1.56rem;
         padding:0;
         margin: 1.5vh;
-        padding-bottom: 5px;
+        padding-bottom: 0.3rem;
         }
 
         .links {
@@ -70,10 +70,10 @@ export default{
     position: absolute;
     display: block;
     width: 100%;
-    height: 2px;
+    height: 0.13rem;
     bottom: 0;
     left: 0;
-    background-color: lawngreen;
+    background-color: #369ba4;
     transform: scaleX(0);
     transition: transform 0.8s ease;
     }
@@ -101,7 +101,7 @@ export default{
 
     .slide-fade-enter-from,
     .slide-fade-leave-to {
-    transform: translateX(20px);
+    transform: translateX(1.25rem);
     opacity: 0;
     }
 

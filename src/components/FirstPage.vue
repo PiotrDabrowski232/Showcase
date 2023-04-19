@@ -1,19 +1,19 @@
 <template>
     <div>
       <h3>
-        Piotr<span style="color: #c82128">Dabrowski</span>
+        Piotr<span style="color: #a61a20">Dabrowski</span>
       </h3>
 
       <div class="navigation">
         <BarBase style="background-color: darkcyan; color: white;" v-model:visible="visible" position="right">
-            <h4 style="top: 1.25rem; padding-left: 1rem; position: absolute; font-size: 25px; margin: 0; letter-spacing: 2px;">Menu</h4>
+            <h4 style="top: 1.25rem; padding-left: 1rem; position: absolute; font-size: 1.6rem; margin: 0; letter-spacing: 0.12rem;">Menu</h4>
             <div class="sidebar">
                 <a href="#Home" @click="visible = !visible" >Home</a>
                 <a href="#aboutMe" @click="visible = !visible">About Me</a>
                 <a href="#ContactMe" @click="visible = !visible">Contact</a>
             </div>
         </BarBase>
-        <ButtonBase style="background-color: #c82128; color: black;" icon="pi pi-bars" @click="visible = !visible" />
+        <ButtonBase style="background-color: #a61a20; color: white;" icon="pi pi-bars" @click="visible = !visible" />
       </div>
 
         <div class="reflinks">
@@ -57,7 +57,7 @@ export default {
         text-decoration: none;
         text-align: left; 
         font-size: 1.5rem;
-        letter-spacing: 2px;
+        letter-spacing: 0.12rem;
         padding-left: 2rem;
         margin-top: 4vh;
         display: block;
@@ -111,15 +111,15 @@ export default {
     }
 
     .welcomeMessage h4{
-        letter-spacing: 3.2px;
+        letter-spacing: 0.2rem;
         color: white;
         opacity: 0.65;
     }
     
     .welcomeMessage p{
-        letter-spacing: 3.2px;
+        letter-spacing: 0.2rem;
         color: white;
-        font-size: 45px;
+        font-size: 2.8rem;
         padding-top: 1.2vh;
         font-weight: 500;
         text-align: justify;
