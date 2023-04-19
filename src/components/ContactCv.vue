@@ -1,7 +1,7 @@
 <template>
     <div class="main"  id="ContactMe">
         <nav>
-            <router-link @click="isActiveCv= true; isActiveContact= false" v-bind:class="isActiveCv && 'active'" style=" text-decoration: none; position: relative;"  class="links" to="/Contact">Contact</router-link>
+            <router-link @click="isActiveCv= true; isActiveContact= false" v-bind:class="isActiveCv && 'active'" style=" text-decoration: none; position: relative;"  class="links" to="/"  exact-path>Contact</router-link>
             <router-link @click="isActiveCv= false; isActiveContact= true" v-bind:class="isActiveContact && 'active'" style=" text-decoration: none; position: relative;" class="links" to="/Cv">Curriculum Vitae</router-link>
         </nav>  
         <router-view v-slot="{Component}">
@@ -21,10 +21,11 @@
 export default{
     data() {
   return {
-    isActiveCv: false,
+    isActiveCv: true,
     isActiveContact: false
   }
 }
+
 }
 </script>
 

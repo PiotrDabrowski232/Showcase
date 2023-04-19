@@ -1,7 +1,7 @@
 <template>
   <div class="Cv">
-    <p>I would also encourage you to check out my Curriculum Vitae.</p>
-    <ButtonBase label="Display Cv" onclick="location.href='Documents/CV.pdf';" rounded></ButtonBase>
+      <p>I would also encourage you to check out my Curriculum Vitae.</p>
+      <a href="Documents/CV.pdf" target="_blank"><ButtonBase class="cvButton" label="Display Cv" rounded></ButtonBase></a>
   </div>
 </template>
 
@@ -24,6 +24,10 @@ color: white;
 }
 .Cv p{
   font-size:1.44rem;
+}
+
+.Cv .cvButton{
+  margin-top: 7rem;
 }
 
 .slide-fade-enter-active {
