@@ -1,5 +1,5 @@
 <template>
-  <PageLoader/>
+  <PageLoader  v-if="isloaded"/>
   <HomePage id="Home"/>
   <AboutMe  id="aboutMe"/>
   <contactCv id="ContactMe"/>
@@ -20,6 +20,19 @@ export default{
     contactCv,
     PageLoader
   },
+  data(){
+        return{
+            isloaded: false,
+        }
+    },
+    mounted(){
+        document.onreadystatechange = () =>{
+            if(document.readyState == 'complete'){
+                this.isloaded = true;
+            }
+        }
+        
+    }
 }
 
 

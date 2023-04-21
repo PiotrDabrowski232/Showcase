@@ -1,5 +1,5 @@
 <template>
-    <div class="page-loader" v-if="isloaded">
+    <div class="page-loader">
         <div class="cube"></div>
         <div class="cube"></div>
         <div class="cube"></div>
@@ -7,25 +7,7 @@
     </div>
 </template>
   
-<script>
 
-export default{
-    data(){
-        return{
-            isloaded: true,
-        }
-    },
-    mouted(){
-        document.onreadystatechange = () =>{
-            if(document.readyState == 'complete'){
-                this.isloaded = false;
-            }
-        }
-        
-    }
-}
-
-</script>
 
 
 
