@@ -25,10 +25,6 @@
             <h4>WELCOME</h4>
             <p>I'm a young and full-of-energy programmer<br> who wants to develop skills and abilities<br> by practicing and never giving up. </p>
         </div>
-
-        <div class="return-to-home">
-            <ButtonBase icon="pi pi-arrow-up" rounded aria-label="Filter"/>
-        </div>
     </div>
 </template>
   
@@ -48,7 +44,7 @@ export default {
   <style>
 
   .sidebar{
-    margin-top:10vh;
+    margin-top:8vh;
   }
 
   .sidebar a{
@@ -57,12 +53,15 @@ export default {
         text-align: left; 
         font-size: 1.5rem;
         letter-spacing: 0.12rem;
-        padding-left: 2rem;
+        margin-left: 2rem;
         margin-top: 4vh;
         display: block;
+        width: max-content;
+        padding: 0;
   }
   .sidebar a:hover{
-    transition: opacity 0.5;
+    opacity: 0.4;
+    transition: opacity 0.5s;
   }
 
     h3{
@@ -84,15 +83,19 @@ export default {
         position: relative;
         top: 50vh;
         display: inline-block;
-        padding-left: 90vw;
+        margin-left: 95.5vw;
     }
 
     .reflinks a{
         text-decoration: none;
         color: azure;
-        padding-top: 1vh;
-        padding-left: 5vw;
+        margin: 0;
         display: block;
+    }
+
+    .reflinks a:hover{
+        opacity: 0.5;
+        transition: opacity 0.7s;
     }
 
     .welcomeMessage{

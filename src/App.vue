@@ -1,4 +1,5 @@
 <template>
+  <PageLoader/>
   <HomePage id="Home"/>
   <AboutMe  id="aboutMe"/>
   <contactCv id="ContactMe"/>
@@ -9,12 +10,15 @@
 import HomePage from "./components/HomePage.vue"
 import AboutMe from "./components/AboutMe.vue"
 import contactCv from "./components/ContactCv.vue"
+import PageLoader from "./components/PageLoader.vue"
+
 export default{
   name:"App",
   components:{
     HomePage,
     AboutMe,
-    contactCv
+    contactCv,
+    PageLoader
   },
 }
 
