@@ -1,5 +1,5 @@
 <template>
-  <PageLoader  v-if="isloaded"/>
+  <PageLoader  v-if="!isloaded"/>
   <HomePage id="Home"/>
   <AboutMe  id="aboutMe"/>
   <contactCv id="ContactMe"/>
