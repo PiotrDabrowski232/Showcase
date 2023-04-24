@@ -1,7 +1,7 @@
 
 <template>
   <div class="Contact">
-    <p style="margin-bottom: 7vh; font-size:1.44rem;">If you are interested, here you have options on how to contact me or check my project</p>
+    <p style="margin-bottom: 7vh; font-size:1.2vw;">If you are interested, here you have options on how to contact me or check my project</p>
     <div class="links-from-contact">
     <p style="margin-top: 4vh;"><strong style="letter-spacing: 0.13rem;">LinkedIn: </strong><a href="https://www.linkedin.com/in/piotrekdabrowski" target="_blank">https://www.linkedin.com/in/piotrekdabrowski</a></p>
     <p style="margin-top: 4vh;"><strong style="letter-spacing:0.13rem;">GitHub: </strong><a href="https://github.com/PiotrDabrowski232" target="_blank">https://github.com/PiotrDabrowski232</a></p>
@@ -15,7 +15,7 @@
 .Contact{
 color: white;
 padding-top: 10vh;
-font-size: 1.25rem;
+font-size: 1.06vw;
 width: 100%;
 }
 a{
@@ -28,7 +28,7 @@ a{
 text-align: left;
 margin-left: auto;
 margin-right: auto;
-width: 34.1rem;
+width: 29.9vw;
 }
   p a::after {
   content: '';

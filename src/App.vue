@@ -53,7 +53,7 @@ export default{
     background: url("./assets/background.jpg") no-repeat;
     background-size: 100% 100%;
     width: auto;
-    height: 100vh;
+    height: 100%;
     margin: 0px;
     padding: 0px;
     scroll-snap-align: center;
@@ -62,7 +62,7 @@ export default{
     background-color: #036871;
     background-size: 100% 100%;
     width: auto;
-    height: 100vh;
+    height: 100%;
     margin: 0px;
     padding: 0px;
     scroll-snap-align: center;

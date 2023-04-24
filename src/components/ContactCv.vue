@@ -62,7 +62,7 @@ export default{
         }
 
         .links{
-        font-size: 1.56rem;
+        font-size: 1.3vw;
         padding:0;
         margin: 1.5vh;
         padding-bottom: 0.3rem;

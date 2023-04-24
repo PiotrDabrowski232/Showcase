@@ -1,7 +1,7 @@
 <template>
   <div class="Cv">
       <p>I would also encourage you to check out my Curriculum Vitae.</p>
-      <a href="Documents/CV.pdf" target="_blank"><ButtonBase style="color:#369ba4;"  class="cvButton" label="Display Cv" link></ButtonBase></a>
+      <a href="Documents/CV.pdf" target="_blank"><ButtonBase style="color:#92171c; font-size: 1vw"  class="cvButton" label="Display Cv" link></ButtonBase></a>
   </div>
 </template>
 
@@ -24,7 +24,7 @@ color: white;
 width: 100%;
 }
 .Cv p{
-  font-size:1.44rem;
+  font-size:1.25vw;
 }
 
 .Cv .cvButton{

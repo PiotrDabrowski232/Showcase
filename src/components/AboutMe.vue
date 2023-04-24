@@ -20,7 +20,7 @@
     margin: 0;
     padding: 0;
     padding-top: 20vh;
-    font-size: 1.25rem;
+    font-size: 1.2vw;
     font-weight: 100;
    }
 
@@ -28,7 +28,7 @@
     opacity: 0.8;
     color: white;
     margin: 0;
-    font-size: 4.1rem;
+    font-size: 3.4vw;/*4.1rem*/
     padding-top: 2.8rem;
     letter-spacing: 0.3rem;
     margin-bottom: 8vh;
@@ -37,7 +37,7 @@
    .aboutMe p{
     color: rgb(255, 255, 255);
     letter-spacing: 1px;
-    font-size: 1.6rem;
+    font-size: 1.4vw;/*1.6rem*/
     width: 50vw;
     text-align: justify;
     margin-left: auto;

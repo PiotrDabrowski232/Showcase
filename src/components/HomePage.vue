@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div style="resize: both">
       <h3>
         Piotr<span style="color: #a61a20">Dabrowski</span>
       </h3>
@@ -13,17 +13,17 @@
                 <a href="#ContactMe" @click="visible = !visible">Contact</a>
             </div>
         </BarBase>
-        <ButtonBase style="background-color: #a61a20; color: white;" icon="pi pi-bars" @click="visible = !visible" />
+        <ButtonBase style="background-color: #a61a20; color: white; width: 2.5vw; height: 2.5vw;" icon="pi pi-bars" @click="visible = !visible" />
       </div>
 
         <div class="reflinks">
-            <a href="https://www.linkedin.com/in/piotrekdabrowski" target="_blank" ><i style="color: aliceblue;" class="pi pi-linkedin"></i></a>
-            <a href="https://github.com/PiotrDabrowski232?tab=repositories" target="_blank" ><i style="color: aliceblue;" class="pi pi-github"></i></a>
+            <a href="https://www.linkedin.com/in/piotrekdabrowski" target="_blank" ><i style="color: aliceblue; font-size: 1vw; margin-bottom: 0.7vh;" class="pi pi-linkedin"></i></a>
+            <a href="https://github.com/PiotrDabrowski232?tab=repositories" target="_blank" ><i style="color: aliceblue; font-size: 1vw;" class="pi pi-github"></i></a>
         </div>
 
         <div class="welcomeMessage">
             <h4>WELCOME</h4>
-            <p>I'm a young and full-of-energy programmer<br> who wants to develop skills and abilities<br> by practicing and never giving up. </p>
+            <p>I'm a young and full-of-energy programmer, who wants to develop skills and abilities by practicing and never giving up. </p>
         </div>
     </div>
 </template>
@@ -70,6 +70,7 @@ export default {
         padding: 8vh 0vw 0vh 4vw;
         font-family: 'Chivo Mono', monospace;
         display: inline-block;
+        font-size: 1.4vw;
     }
     
     .navigation{
@@ -99,26 +100,28 @@ export default {
     }
 
     .welcomeMessage{
-        color: white;
         position: absolute;
+        color: white;
         margin-top: 11vh;
-        margin-left: 43vh;
-        margin-right: 25vh;
+        margin-left: 20vw;
+        margin-right: 25vw;
+        width: 55vw;
     }
 
     .welcomeMessage h4{
         letter-spacing: 0.2rem;
         color: white;
         opacity: 0.65;
+        font-size: 0.8vw;
     }
     
     .welcomeMessage p{
         letter-spacing: 0.2rem;
         color: white;
-        font-size: 2.8rem;
         padding-top: 1.2vh;
         font-weight: 500;
         text-align: justify;
+        font-size: 2.4vw;
     }
 
 
