@@ -13,7 +13,7 @@
                 <a href="#ContactMe" @click="visible = !visible">Contact</a>
             </div>
         </BarBase>
-        <ButtonBase style="background-color: #a61a20; color: white; width: 2.5vw; height: 2.5vw;" icon="pi pi-bars" @click="visible = !visible" />
+        <ButtonBase style="background-color: #a61a20; color: white; width: 2.5em; height: 2.5em;" icon="pi pi-bars" @click="visible = !visible" />
       </div>
 
         <div class="reflinks">
@@ -23,7 +23,7 @@
 
         <div class="welcomeMessage">
             <h4>WELCOME</h4>
-            <p>I'm a young and full-of-energy programmer, who wants to develop skills and abilities by practicing and never giving up. </p>
+            <p>I am a young and energetic programmer, who wants to develop skills and abilities through practice and never give up.</p>
         </div>
     </div>
 </template>

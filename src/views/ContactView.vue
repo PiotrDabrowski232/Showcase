@@ -1,7 +1,7 @@
 
 <template>
   <div class="Contact">
-    <p style="margin-bottom: 7vh; font-size:1.2vw;">If you are interested, here you have options on how to contact me or check my project</p>
+    <p style="margin-bottom: 7vh; font-size:1.2vw;">If you are interested, here are options on how to contact me or check out my project</p>
     <div class="links-from-contact">
     <p style="margin-top: 4vh;"><strong style="letter-spacing: 0.13rem;">LinkedIn: </strong><a href="https://www.linkedin.com/in/piotrekdabrowski" target="_blank">https://www.linkedin.com/in/piotrekdabrowski</a></p>
     <p style="margin-top: 4vh;"><strong style="letter-spacing:0.13rem;">GitHub: </strong><a href="https://github.com/PiotrDabrowski232" target="_blank">https://github.com/PiotrDabrowski232</a></p>

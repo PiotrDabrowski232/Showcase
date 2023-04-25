@@ -2,8 +2,8 @@
     <div class="aboutMe">
         <h3>MY NAME IS</h3>
         <h1> Piotr Dąbrowski</h1>
-        <p>and I'm a fourth-semester student at the Białystok University of Technology. By doing duties involves with my University, I can easily develop my technical and soft skills.</p>
-        <p>In my free time, I try to gain knowledge about IT stuff, by achieving extra certificates, which confirm my understanding of the particular issue, and doing practice projects.</p>
+        <p>and I am a fourth semester student at Bialystok University of Technology. While performing duties related to my university, I can easily develop my technical and soft skills.</p>
+        <p>In my spare time, I try to gain knowledge in the field of computer science by gaining additional certificates that prove my understanding of a particular subject and by doing practical projects.</p>
     </div>
 </template>
   
