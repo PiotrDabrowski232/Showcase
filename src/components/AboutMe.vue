@@ -11,7 +11,6 @@
   <style>
    .aboutMe{
     text-align: center;
-    color: wheat;
     font-family: 'Raleway', sans-serif;
    }
    
