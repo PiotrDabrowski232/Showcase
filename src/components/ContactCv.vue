@@ -53,7 +53,8 @@ export default{
         color: white;
         text-align: center;
         margin: 0;
-        padding-top: 0.8rem;
+        font-size: 60%;
+        padding-top: 1%;
     }
 
         .rout-content{

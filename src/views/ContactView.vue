@@ -28,7 +28,7 @@ a{
 text-align: left;
 margin-left: auto;
 margin-right: auto;
-width: 29.9vw;
+width: 31.5vw;
 }
   p a::after {
   content: '';
